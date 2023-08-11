@@ -102,6 +102,21 @@
         </style>
 
     </head>
+    
+    <%
+                Object mynewuser1 = session.getAttribute("user");
+                if (mynewuser1 == null) {
+                    
+                    response.sendRedirect(request.getContextPath());
+                } else {
+                    User myuser1 = (User) session.getAttribute("user");
+                    if(!myuser1.getType().equals("admin"))
+                    {
+                        response.sendRedirect(request.getContextPath());
+                    }
+        }
+                %>
+               
 
     <body style="background-color: grey  ;">
 
@@ -138,10 +153,10 @@
                                 <li class="nav-item">
                                     <a class="nav-link" data-bs-toggle="modal" data-bs-target="#msgModal" href="">Messages</a>
                                 </li>
-                                <li class="nav-item  active">
+<!--                                <li class="nav-item  active">
                                     <button class="mybtn-nav btn nav-link "><a
                                             href="components/admin.jsp">Admin</a></button>
-                                </li>
+                                </li>-->
                             </ul>
                         </div>
                     </div>

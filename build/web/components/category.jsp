@@ -1,6 +1,8 @@
 <%@page import="java.io.File"%>
 <%@page import="java.sql.*"%>
 <div id="category" style="background-color: #e9e9e9;">
+    
+    <h1 class="container m-auto pb-4" style="width: fit-content;">Category</h1>
     <div id="cat" class="container ps-3 pe-3 pb-3">
 
         <%

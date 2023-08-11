@@ -1,4 +1,5 @@
-<div class="hero-section">
+<div class="hero-section" >
+    
     <div class="container">
         <div class="row">
             <div class="order-last order-md-first col-12 col-md-6 d-flex text-center flex-column justify-content-center align-items-center p-3" style="color:white;">

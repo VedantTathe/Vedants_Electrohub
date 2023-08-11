@@ -57,7 +57,7 @@
 
                 <%
                         count = count + 1;
-                        if (count >= 10) {
+                        if (count >= 7) {
                             flag = true;
                             break;
                         }

@@ -21,24 +21,17 @@ public class RemoveFromCart extends HttpServlet{
            
             HttpSession ses = request.getSession();
             
-            Product product = (Product)ses.getAttribute("product");
-            if(product == null)
-            {
-            
-               ses.setAttribute("err", "Something went wrong..!");
-               response.sendRedirect(request.getContextPath()+"/mycart.jsp");
-            }
-            else{
+            String imgname = request.getParameter("ClickedElem");
                
             
-            Cookie cookie1 = new Cookie("mycart"+product.getPImageName(), "");
+            Cookie cookie1 = new Cookie("mycart"+imgname, "");
             cookie1.setMaxAge(0);
             response.addCookie(cookie1);
           
             ses.setAttribute("msg", "Product Removed From Your Cart");
             response.sendRedirect(request.getContextPath()+"/mycart.jsp");
           
-           }
+           
                 
     }
     

@@ -27,7 +27,7 @@ public class MessageServlet extends HttpServlet {
 
         String Name = request.getParameter("Name").trim().toUpperCase();
         String Sname = request.getParameter("Sname").trim().toUpperCase();
-        String Email = request.getParameter("Email").trim().toUpperCase();
+        String Email = request.getParameter("Email").trim().toLowerCase();
         String Mnumber = request.getParameter("MNumber");
         String Message = request.getParameter("Message").trim().toUpperCase();
 

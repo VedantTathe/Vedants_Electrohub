@@ -77,13 +77,13 @@
             </div>
             <p><i class="fa-solid fa-copyright"></i>  2023 Vedant's Electrohub<p>
             <div class="d-flex justify-content-center align-items-center gap-2 pe-md-5">
-<!--                
-                <p><i class="fa-solid fa-envelope"></i>Email</p>
-                <p><i class="fa-brands fa-instagram"></i>Instagram</p>
-                <p><i class="fa-brands fa-youtube"></i>Youtube</p>
-                <p><i class="fa-brands fa-square-twitter"></i>Twitter</p>
-                <p><i class="fa-brands fa-square-facebook"></i>Facebook</p>
-                <p><i class="fa-brands fa-linkedin"></i>LinkedIn</p>-->
+                <!--                
+                                <p><i class="fa-solid fa-envelope"></i>Email</p>
+                                <p><i class="fa-brands fa-instagram"></i>Instagram</p>
+                                <p><i class="fa-brands fa-youtube"></i>Youtube</p>
+                                <p><i class="fa-brands fa-square-twitter"></i>Twitter</p>
+                                <p><i class="fa-brands fa-square-facebook"></i>Facebook</p>
+                                <p><i class="fa-brands fa-linkedin"></i>LinkedIn</p>-->
 
                 <p><i class="fa-solid symbol fa-envelope"></i></p>
                 <p><i class="fa-brands fa-instagram"></i></p>
@@ -91,7 +91,7 @@
                 <p><i class="fa-brands fa-square-twitter"></i></p>
                 <p><i class="fa-brands fa-square-facebook"></i></p>
                 <p><i class="fa-brands fa-linkedin"></i></p>
-                
+
             </div>
         </div>
     </div>

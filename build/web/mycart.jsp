@@ -225,10 +225,10 @@
                         </div>
                     </a>
 
-                    <a href="<%=request.getContextPath() + "/RemoveFromCart"%>">
+                    <a >
                         <div>
 
-                            <button onclick="" class="btn mybtn" style="background-color:#fb641b;" id="buybtn">
+                            <button onclick="call('<%=rs.getString("imgname")%>')" class="btn mybtn" style="background-color:#fb641b;" id="buybtn">
                                 <i class="fa-sharp fa-solid fa-bag-shopping"></i> Remove</button>
 
 
@@ -255,7 +255,7 @@
 
             </div>
 
-            <form action="<%=request.getContextPath() + "/GetProductServlet"%>" method="get" id="hidden_form" class="d-none">
+            <form action="<%=request.getContextPath() + "/RemoveFromCart"%>" method="get" id="hidden_form" class="d-nonr">
                 <input type="text" id="clicked_elem" name="ClickedElem" value="" class="d-none"/>
             </form>
         </div>

@@ -34,7 +34,7 @@ public class BuyNowServlet extends HttpServlet {
             String pcat = product.getPCat();
             
             
-            ses.setAttribute("msg", "Your order is placed successfuly \n And your "+pcat.substring(0,pcat.length()-1)+" will be delivered soon...");
+            ses.setAttribute("msg", "Your order is placed successfuly \n and your "+pcat.substring(0,pcat.length()-1)+" will be delivered soon...");
             response.sendRedirect(request.getContextPath() + "/product_details.jsp");
             
         } else {

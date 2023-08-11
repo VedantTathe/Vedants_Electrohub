@@ -88,7 +88,7 @@
                             <div class="d-md-flex justify-content-center align-items-center gap-5 col-12">
                                 <label class="form-label col-md-4 col-12">Password</label>
                                 <input class="form-control col-md-8 col-12" type="password" name="Password" id="password"
-                                       placeholder="Enter Password Here" >
+                                       placeholder="Enter Password Here" required>
 
                             </div>
                             <div class="d-md-flex justify-content-center align-items-center gap-5 col-12">
